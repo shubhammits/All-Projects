@@ -24,4 +24,4 @@ writer.encrypt(password)
 with open("secure.pdf", "wb") as f:
     writer.write(f)
 
-print("✅ PDF secured successfully! Saved as 'secure.pdf'")
+print("PDF secured successfully! Saved as 'secure.pdf'")
