@@ -21,15 +21,15 @@ while True:
         withdraw = float(input("Enter amount to withdraw: "))
         if withdraw <= balance:
             balance -= withdraw
-            print("✅ Withdrawal Successful")
+            print("Withdrawal Successful")
             print("Your new balance is:", balance)
         else:
-            print("❌ Insufficient Balance")
+            print("Insufficient Balance")
 
     elif option == 3:
         deposit = float(input("Enter amount to deposit: "))
         balance += deposit
-        print("✅ Deposit Successful")
+        print("Deposit Successful")
         print("Your new balance is:", balance)
 
     elif option == 4:
@@ -37,5 +37,5 @@ while True:
         break
 
     else:
-        print("❌ Invalid option. Please try again.")
+        print("Invalid option. Please try again.")
 1
